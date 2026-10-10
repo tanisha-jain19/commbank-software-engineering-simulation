@@ -1,0 +1,44 @@
+* {
+  font-family: "Lucida Sans", "Gill Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #EBEBEB;
+  color: #1E1E1E;
+}
+
+h1 {
+  background-color: #FFCC00;
+  color: #1E1E1E;
+  font-size: 70pt;
+  padding: 30px;
+  margin: 0 0 35px 0;
+}
+
+h2 {
+  background-color: #BEBEB9;
+  color: #1E1E1E;
+  font-size: 38pt;
+  padding: 15px 20px;
+  margin-top: 35px;
+}
+
+p {
+  background-color: #FFFFFF;
+  color: #1E1E1E;
+  font-size: 18pt;
+  line-height: 1.6;
+  padding: 20px;
+  margin-top: 0;
+}
+
+/* Keep the original desktop design readable on smaller screens. */
+@media (max-width: 600px) {
+  body { padding: 16px; }
+  h1 { font-size: 2.25rem; padding: 20px; overflow-wrap: break-word; }
+  h2 { font-size: 1.5rem; padding: 15px; }
+  p { font-size: 1rem; padding: 16px; }
+}
